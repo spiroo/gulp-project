@@ -1,0 +1,31 @@
+{
+  "name": "gulp-project",
+  "version": "1.0.0",
+  "description": "gulp test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp --gulpfile gulp-dev-config.js",
+    "build": "rimraf dist && gulp --gulpfile gulp-production-config.js build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spiroo/gulp-project.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "DK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spiroo/gulp-project/issues"
+  },
+  "homepage": "https://github.com/spiroo/gulp-project#readme",
+  "devDependencies": {
+    "browser-sync": "^2.15.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "node-sass": "^3.9.3"
+  },
+  "dependencies": {}
+}
