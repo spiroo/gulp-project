@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "gulp --gulpfile gulp-dev-config.js",
-    "build": "rimraf dist && gulp --gulpfile gulp-production-config.js build"
+    "dev": "gulp --gulpfile gulpfile-dev-config.js",
+    "build": "gulp --gulpfile gulpfile-production-config.js build"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,12 @@
   "devDependencies": {
     "browser-sync": "^2.15.0",
     "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev": "^7.1.2",
+    "gulp-rev-collector": "^1.0.5",
     "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
     "node-sass": "^3.9.3"
   },
   "dependencies": {}
